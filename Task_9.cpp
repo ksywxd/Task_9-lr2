@@ -5,7 +5,7 @@ int main()
 {
     int num;
     double z, x, y, a, b, fi;
-    std::cout << "Enter numder: 1. 2x \n2. x^3 \n3. x/2" << std::endl;
+    std::cout << "Enter numder: 1. 2x \n2. x^3 \n3. x/3" << std::endl;
     std::cin >> num;
     std::cout << "Enter z, a, b: " << std::endl;
     std::cin >> z >> a >> b;
