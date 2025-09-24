@@ -40,6 +40,16 @@ int main()
         std::cout << "incorrect" << std::endl;
     }
 
+    if (cos(x) == 0) {
+        std::cout << "division by zero (cos(x)=0)" << std::endl;
+        return 1;
+    }
+
+    double t = tan(x / 2);
+    if (t == 0) {
+        std::cout << "Error: log(0)" << std::endl;
+        return 1;
+    }
 
     return 0;
 }
