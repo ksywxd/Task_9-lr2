@@ -38,6 +38,7 @@ int main()
         break;
     default:
         std::cout << "incorrect" << std::endl;
+        return 1;
     }
 
     if (cos(x) == 0) {
